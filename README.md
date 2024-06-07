@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Germoney - UI
 
-## Getting Started
+## Sobre o Projeto
 
-First, run the development server:
+ - (descrição em breve))
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática ao código.
+- **SCSS (Sass)**: Pré-processador CSS que facilita a escrita de estilos.
+- **Webpack**: Ferramenta para empacotamento de módulos JavaScript e assets.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Como Rodar o Projeto Localmente
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Pré-requisitos
 
-## Learn More
+Certifique-se de ter o [Node.js e npm](https://nodejs.org/en) (ou yarn) instalados em sua máquina.
 
-To learn more about Next.js, take a look at the following resources:
+### Passos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone o repositório**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/NathanBergmann/Germoney-Front.git
+   cd germoney
+   ```
 
-## Deploy on Vercel
+2. **Instale as dependências**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Com npm:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npm install
+   ```
+
+   Com yarn:
+
+   ```bash
+   yarn install
+   ```
+
+3. **Inicie o servidor de desenvolvimento**:
+
+   Com npm:
+
+   ```bash
+   npm start
+   ```
+
+   Com yarn:
+
+   ```bash
+   yarn start
+   ```
+
+4. **Acesse o projeto no navegador**:
+
+   Abra o navegador e visite [http://localhost:3000](http://localhost:3000).
+
+5. **Para build de produção**:
+
+   Com npm:
+
+   ```bash
+   npm run build
+   ```
+
+   Com yarn:
+
+   ```bash
+   yarn build
+   ```
+
+   Isso criará uma versão otimizada do aplicativo para produção na pasta `build`.
