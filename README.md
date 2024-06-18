@@ -45,13 +45,13 @@ Certifique-se de ter o [Node.js e npm](https://nodejs.org/en) (ou yarn) instalad
    Com npm:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
    Com yarn:
 
    ```bash
-   yarn start
+   yarn run dev
    ```
 
 4. **Acesse o projeto no navegador**:
