@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import classNames from "classnames";
 import { Open_Sans } from 'next/font/google'
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Germoneys",
@@ -31,7 +28,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"/>
     </head>
-    <body className={classNames(inter.className, openSans.className,'bg-secondary bg-opacity-25')}>
+    <body className={classNames(openSans.className,'bg-secondary bg-opacity-25')}>
         {children}
     </body>
     </html>
