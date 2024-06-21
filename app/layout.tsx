@@ -21,14 +21,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={"h-100 min-vh-100 m-0 p-0"}>
     <head>
         <link rel="icon" href="/logoicon.ico"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"/>
     </head>
-    <body className={classNames(openSans.className,'bg-secondary bg-opacity-25')}>
+    <body className={classNames(openSans.className,'d-flex flex-column min-vh-100 bg-secondary bg-opacity-25')}>
         {children}
     </body>
     </html>
