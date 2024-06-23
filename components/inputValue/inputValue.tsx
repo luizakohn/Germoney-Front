@@ -1,4 +1,5 @@
 'use client'
+
 import { Input, InputGroup, InputGroupText } from "reactstrap";
 import styles from "./inputValue.module.scss";
 import { useState } from "react";
