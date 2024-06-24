@@ -1,0 +1,39 @@
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 15px;
+}
+
+.card {
+  width: 18rem;
+  padding: 15px;
+}
+
+.img {
+  border-radius: 5px;
+  height: 200px;
+  width: 300px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #0A4D80;
+  border-color: #0A4D80;
+  border-radius: 15px;
+  width: 225px;
+  padding: 5px;
+  color: aliceblue;
+}
+
+.containerImage {
+  margin-right: 10px;
+}
