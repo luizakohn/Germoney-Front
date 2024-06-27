@@ -6,6 +6,7 @@ import styles from "./page.module.scss"
 import classNames from "classnames";
 import {Product} from "@/types/products";
 import api from "@/api/api";
+import ProductGrid from "@/components/product/productCard";
 
 async function getProducts(): Promise<Product[]> {
     try {
@@ -33,6 +34,7 @@ export default async function Page() {
                     </div>
                 </div>
             </div>
+            <ProductGrid products={products}/>
             <Footer/>
         </>
     )
