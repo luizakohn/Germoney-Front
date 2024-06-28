@@ -5,11 +5,11 @@ import RootLayout from "@/app/layout";
 
 const Form = () => {
     return(
-        <div>
+        <div className={"p-5"}>
             <form>
-                <div className="mb-3">
-                    <label htmlFor="inputID" className="form-label">ID</label>
-                    <input type="number" disabled className="form-control" id="inputID"/>
+                <div className="mb-3" >
+                    <label htmlFor="inputID" hidden className="form-label">ID</label>
+                    <input type="number" hidden disabled className="form-control" id="inputID"/>
                 </div>
                 <div className="mb-3">
                     <label htmlFor="iName" className="form-label">Nome</label>
